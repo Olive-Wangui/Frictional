@@ -28,3 +28,9 @@ body {
     margin-right: auto;
     width: 65%;
 }
+.symbol {
+    font-size: 100px;
+    font-display: auto;
+    font-weight: bolder;
+    color: plum;
+}
