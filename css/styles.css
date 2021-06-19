@@ -1,7 +1,6 @@
 body {
     padding: 0;
     margin: 0;
-    background-color: palegreen;
 }
 .navbar {
     background: palevioletred;
@@ -22,15 +21,41 @@ body {
 .navbar-collapse {
     justify-content: flex-end;
 }
-.header img {
+.text img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 65%;
+    width: 75%;
 }
-.symbol {
+.text {
     font-size: 100px;
     font-display: auto;
     font-weight: bolder;
-    color: plum;
+    color: red;
+}
+b {
+    color: darkorange;
+    font-size: 50px;
+}
+h2 {
+    color: white;
+    @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+    font-size: 50px;
+    text-shadow: 1px 1px 2px white, 0 0 25px black, 0 0 5px red;
+    font-size: 60%;
+}
+p {
+    font-size: large;
+    color: black;
+    font-size: 30%;
+}
+.first-text {
+    position: absolute;
+    top: 200px;
+    left: 400px;
+}
+.symbol {
+    position: absolute;
+    top: 80px;
+    left: 600px;
 }
