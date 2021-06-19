@@ -78,3 +78,8 @@ p {
 u {
     color:black;
 }
+.Services img {
+    position: relative; bottom: -500px; right: 200px;
+    width: 100%;
+    height: 10cm;
+}
