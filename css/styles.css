@@ -8,8 +8,10 @@ body {
 }
 .nav-link,
 .navbar-brand {
-    color: #fff;
+    font-weight: bolder;
     cursor: pointer;
+    color: honeydew;
+    font-style: italic;
 }
 .nav-link {
     margin-right: 1em !important;
