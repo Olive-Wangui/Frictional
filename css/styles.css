@@ -1,7 +1,7 @@
 body {
     padding: 0;
     margin: 0;
-    background: palegreen;
+    background-color: palegreen;
 }
 .navbar {
     background: palevioletred;
@@ -21,4 +21,10 @@ body {
 }
 .navbar-collapse {
     justify-content: flex-end;
+}
+.header img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 65%;
 }
