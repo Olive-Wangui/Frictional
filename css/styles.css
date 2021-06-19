@@ -83,3 +83,10 @@ u {
     width: 100%;
     height: 10cm;
 }
+.Services h2 {
+    position: relative; bottom: -170px; left: 150px;
+    color: yellow;
+}
+.Services p {
+    position: relative; bottom: -200px; right: 160px;
+}
