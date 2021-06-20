@@ -32,7 +32,6 @@ body {
     font-size: 100px;
     font-display: auto;
     font-weight: bolder;
-    color: beige;
 }
 b {
     color: darkorange;
@@ -55,10 +54,17 @@ p {
     top: 200px;
     left: 400px;
 }
-.symbol {
+.first-text img {
     position: absolute;
-    top: 80px;
+    bottom: -370px;
+    left: 200px;
+    color: peachpuff;
+}
+.symbol img {
+    position: absolute;
+    top: 100px;
     left: 600px;
+    width: 70px;
 }
 .container h2 {
     position: relative;
@@ -79,7 +85,7 @@ u {
     color:black;
 }
 .Services img {
-    position: relative; bottom: -500px; right: 200px;
+    position: relative; bottom: -500px; left: -190px;
     width: 100%;
     height: 8cm;
 }
