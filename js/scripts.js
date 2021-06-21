@@ -18,3 +18,13 @@ $(document).ready(function(){
         }
     })
 })
+$(document).ready(function(){
+    $("#product3").hide();
+    $("#picture-3").click(function() {
+        if($("#product3").is(":visible")){
+           $("#product3").show();
+        }else{
+            $("#product3").hide();
+        }
+    })
+})
