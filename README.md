@@ -5,7 +5,7 @@ Olive Wangui
 Delani Studio
 
 ## Description
-This project 
+This project concerns recreating frictional studio for Delani studio to suit the user's needs.
 
 ## Setup instructions
 -'git clone https://github.com/Olive-Wangui/Frictional.git' -cd -code. or visual studio code. based on the text editor you have.
