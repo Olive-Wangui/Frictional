@@ -5,6 +5,7 @@ body {
 }
 .navbar {
     background: palevioletred;
+    left: 0px;
 }
 .nav-link,
 .navbar-brand {
@@ -26,88 +27,102 @@ body {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 75%;
+    width: 85%;
+    float: right;
+    position: relative;
+    right: 50px;
 }
-.text {
-    font-size: 100px;
-    font-display: auto;
-    font-weight: bolder;
-}
-b {
-    color: darkorange;
-    font-size: 50px;
-}
-h2 {
+.first-text h2 {
     color: white;
     @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
-    font-size: 50px;
+    font-size: 100px;
     text-shadow: 1px 1px 2px white, 0 0 25px black, 0 0 5px red;
-    font-size: 60%;
+    font-size: xxx-large;
+    position: relative;
+    right: -50px;
+    top: -400px;
 }
-p {
+.first-text p {
     font-size: large;
     color: black;
-    font-size: 30%;
-}
-.first-text {
-    position: absolute;
-    top: 200px;
-    left: 400px;
+    font-size: large;
+    position: relative;
+    right: -50px;
+    top: -380px;
 }
 .first-text img {
-    position: absolute;
-    bottom: -370px;
-    left: 220px;
-    color: peachpuff;
+    position: relative;
+    bottom: -540px;
+    right: -600px;
 }
 .symbol img {
     position: absolute;
     top: 140px;
-    left: 600px;
+    left: 200px;
     width: 70px;
 }
 .container h2 {
     position: relative;
-    bottom: -450px;
-    left: 100px;
+    top: -150px;
+    right: -500px;
     color: black;
 }
 .container p {
     position: relative;
-    bottom: -460px;
-    right: 150px;
+    top: -130px;
+    right: -100px;
     @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
     font-weight: bold;
-    font-size: large;
-
+    font-size: larger;
+    text-shadow:  1px 1px 2px white, 0 0 25px whitesmoke;
 }
 u {
     color:black;
 }
-.Services img {
-    position: relative; bottom: -500px; left: -190px;
-    width: 100%;
-    height: 8cm;
+.services img {
+    position: relative; top: -100px; left: 130px;
+    width: 80%;
+    height: 9cm;
 }
-.Services h2 {
-    position: relative; bottom: -250px; left: 150px;
+.services h2 {
+    position: relative; top: -400px; right: -600px;
     color: yellow;
 }
-.Services p {
-    position: relative; bottom: -260px; right: 160px;
-    font-size: 35%;
-    text-shadow:  1px 1px 2px white, 0 0 25px black, 0 0 5px papayawhip;
+.services p {
+    position: relative; top: -370px; right: -150px;
+    font-size: 90;
+    color: whitesmoke;
+    font-weight: bold;
+    text-shadow: 1px 1px black;
 }
-.icons img {
+.col-sm-12 img {
     float: left;
     position: relative;
-    left: -100px;
-    background-color: antiquewhite;
+    left: 260px;
+    top: -150px;
 }
-.icons h4 {
+.col-sm-12 h4 {
     position: relative;
-    left: -175px;
-    bottom: -465px;
+    left: 180px;
+    top: -55px;
     font-weight: bolder;
     text-shadow: 1px 1px 2px black, 0 0 25px whitesmoke, 0 0 white;
+}
+.row h2 {
+    position: relative;
+    top: -200px;
+    right: -500px;
+}
+.col-sm-8 img {
+    position: relative;
+    float: center;
+    left: 550px;
+    top: -230px;
+}
+.col-sm-8 h4 {
+    position: relative;
+    top: -220px;
+    right: -500px;
+    font-weight: bolder;
+    text-shadow: 1px 1px 2px black, 0 0 25px whitesmoke;
 }
