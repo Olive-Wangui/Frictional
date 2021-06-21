@@ -1,10 +1,20 @@
 $(document).ready(function(){
-    $('.header').height($(window).height());
+    $("#design-1").hide();
+    $("#picture-1").click(function() {
+        if($("#design-1").is(":visible")){
+           $("#design-1").show();
+        }else{
+            $("#design-1").hide();
+        }
+    })
 })
 $(document).ready(function(){
-    $("design1").hide(function)
-    $("picture1").click(function){
-        if (#"design1").is('visile')
-
-    }
+    $("#dev-2").hide();
+    $("#picture-2").click(function() {
+        if($("#dev-2").is(":visible")){
+           $("#dev-2").show();
+        }else{
+            $("#dev-2").hide();
+        }
+    })
 })

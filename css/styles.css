@@ -1,27 +1,6 @@
 body {
     padding: 0;
     margin: 0;
-    background-color: palegreen;
-}
-.navbar {
-    background: palevioletred;
-    left: 0px;
-}
-.nav-link,
-.navbar-brand {
-    font-weight: bolder;
-    cursor: pointer;
-    color: honeydew;
-    font-style: italic;
-}
-.nav-link {
-    margin-right: 1em !important;
-}
-.nav-link:hover {
-    color: #000;
-}
-.navbar-collapse {
-    justify-content: flex-end;
 }
 .text img {
     display: block;
@@ -64,13 +43,13 @@ body {
 .container h2 {
     position: relative;
     top: -150px;
-    right: -500px;
+    right: -50px;
     color: black;
 }
 .container p {
     position: relative;
     top: -130px;
-    right: -100px;
+    right: -50px;
     @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
     font-weight: bold;
     font-size: larger;
@@ -80,16 +59,16 @@ u {
     color:black;
 }
 .services img {
-    position: relative; top: -100px; left: 130px;
+    position: relative; top: -100px; left: 10px;
     width: 80%;
     height: 9cm;
 }
 .services h2 {
-    position: relative; top: -400px; right: -600px;
+    position: relative; top: -400px; right: -60px;
     color: yellow;
 }
 .services p {
-    position: relative; top: -370px; right: -150px;
+    position: relative; top: -370px; right: -10px;
     font-size: 90;
     color: whitesmoke;
     font-weight: bold;
@@ -99,30 +78,46 @@ u {
     float: left;
     position: relative;
     left: 260px;
-    top: -150px;
+    top: -160px;
 }
 .col-sm-12 h4 {
     position: relative;
-    left: 180px;
-    top: -55px;
+    left: -370px;
+    top: -70px;
     font-weight: bolder;
     text-shadow: 1px 1px 2px black, 0 0 25px whitesmoke, 0 0 white;
 }
 .row h2 {
     position: relative;
     top: -200px;
-    right: -500px;
+    right: -50px;
 }
 .col-sm-8 img {
     position: relative;
     float: center;
-    left: 550px;
-    top: -230px;
+    left: 200px;
+    top: -280px;
 }
 .col-sm-8 h4 {
     position: relative;
-    top: -220px;
-    right: -500px;
+    top: -270px;
+    right: -200px;
     font-weight: bolder;
     text-shadow: 1px 1px 2px black, 0 0 25px whitesmoke;
+}
+.col-md-3 img {
+    position: relative;
+    top: -290px;
+}
+.col-md-3 h4 {
+    position: relative;
+    top: -280px; left: -20px;
+    font-weight: bolder;
+    text-shadow: 1px 1px 2px black, 0 0 25px whitesmoke;
+}
+.col-3 {
+    float: left;
+    padding: 10px;
+    width: 20%;
+    margin: 8px 16px;
 }
