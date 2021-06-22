@@ -152,6 +152,7 @@ u {
 }
 .style {
     background-size: 20%;
+    margin: 5px;
 }
 .enter h2 {
     font-weight: bolder;
@@ -173,8 +174,7 @@ u {
     cursor: pointer;
     border: none;
 }
-.col-md-12 {
-    float: left;
-    padding: 10px;
-    box-sizing: border-box;
+.col-1 {
+    margin-right: 20px;
+    padding: 20px;
 }
